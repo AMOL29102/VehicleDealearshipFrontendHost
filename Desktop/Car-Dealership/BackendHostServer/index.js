@@ -34,11 +34,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(logResReq("logs.txt"));
 
 // Using Routes
-app.get("/",(req,res)=>{
+// app.get("/",(req,res)=>{
 
-    res.send("Hello server");
-})
-app.use("/landing", HomeRoute);
+//     res.send("Hello server");
+// })
+app.use("/", HomeRoute);
 app.use("/upload", Imageroute);
 app.use("/details", DetailsRoute);
 app.use("/car", SpecificPageRoute);
