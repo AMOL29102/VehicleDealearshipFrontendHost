@@ -234,7 +234,7 @@ function AdminForm() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div>
-              <label htmlFor="buyPrice" className="block text-gray-700 text-sm font-bold mb-2">Buying Price</label>
+              <label htmlFor="buyPrice" className="block text-gray-700 text-sm font-bold mb-2">Vehilcle Selling Price (To Show)</label>
               <input
                 type="number"
                 id="vehicleSellPrice"
