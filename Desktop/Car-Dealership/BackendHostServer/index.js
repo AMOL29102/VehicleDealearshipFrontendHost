@@ -8,7 +8,7 @@ const app = express();
 
 //routers
 const HomeRoute = require("./routes/home.route.js");
-const Imageroute = require("../Backend/routes/image.route.js");
+const Imageroute = require("./routes/image.route.js");
 const DetailsRoute = require("./routes/carDetails.route.js");
 const SpecificPageRoute = require("./routes/specificCar.route.js");
 const DeleteRecordRoute = require("./routes/deleteRecord.route.js");
